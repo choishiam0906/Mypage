@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="최기헌 - 프로필 링크">
-    <meta property="og:description" content="SAP Architecture">
-    <meta property="og:image" content="프로필.png">
+    <meta property="og:title" content="보라보라한 르탄이">
+    <meta property="og:description" content="힙한 취미 코딩!">
+    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EB%B3%B4%EB%9D%BC+%EB%A5%B4%ED%83%84%EC%9D%B4/%EB%B3%B4%EB%9D%BC%EB%A5%B4%ED%83%84_%ED%94%84%EB%A1%9C%ED%95%84.png">
     <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
-    <title>최기헌 - 프로필 링크</title>
+    <title>&#128304; 응용 프로그래머 최샴</title>
     <style>
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {
             font-family: "Pretendard",serif;
         }
         body {
-            background-color: #44398a;
+            background-color:#EBEAFA;
+            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EB%B3%B4%EB%9D%BC+%EB%A5%B4%ED%83%84%EC%9D%B4/%EB%B0%98%EC%A7%9D%EC%9D%B4.png');
         }
-        .Profile{
+        .profile {
             width: 100px;
             height: 100px;
             border-radius: 100%;
-            border : 2px solid olive;
-            background-image: url('프로필.png');
+            border: 2px solid white;
+            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EB%B3%B4%EB%9D%BC+%EB%A5%B4%ED%83%84%EC%9D%B4/%EB%B3%B4%EB%9D%BC%EB%A5%B4%ED%83%84_%ED%94%84%EB%A1%9C%ED%95%84.png');
             background-position: center;
             background-size: cover;
         }
-
-        .main{
-            color: white;
-            font-size: 20px;
+        .main {
+            color : #000000;
+            font-size: 18px;
+            size : 20px;
             margin-top: 30px;
             margin-bottom: 10px;
         }
-        .sub{
-            color: white;
-            font-size: 14px; 
+        .sub {
+            color : #000000;
+            font-size: 14px;
+            font-weight: 400;
+            size : 14px;
             margin-top: 0px;
-            margin-bottom: 30px;           
+            margin-bottom: 30px;
         }
-        .wrap{
+        .wrap {
             width: 300px;
             margin: 30px auto 0px auto;
             display: flex;
@@ -47,35 +50,78 @@
             justify-content: center;
             align-items: center;
         }
-        .wrap > a {
-            width:  300px;
-            height: 50px;
+        .bigbutton {
+            width: 320px;
+            height: 59px;
+            border-radius: 100px;
             background-color: white;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            font-size: 14px;
+            margin-bottom: 16px;
+            font-size: 16px;
             font-weight: bold;
-            color: 44398a;
+            color:#000000;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-decoration: none;
-            box-shadow: 3px 3px 5px 0 black;
+            box-shadow: 0px 2px 8px rgba(152, 151, 185, 0.24) ;
+        }
+        .minibutton {
+            width: 152px;
+            height: 59px;
+            border-radius: 100px;
+            background-color: white;
+            font-size: 16px;
+            font-weight: bold;
+            color:#000000;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0px 2px 8px rgba(152, 151, 185, 0.24);
+            margin: 0px 8px 17px 8px;
+        }
+        .buttons {
+            display: flex;
         }
         .wrap > a:hover {
             background-color: #f2f2f2;
-            font-size: 16px;
+        }
+        .buttons > a:hover {
+            background-color: #f2f2f2;
+        }
+        .rtan {
+            width: 100px;
+            height: 170px;
+            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EB%B3%B4%EB%9D%BC+%EB%A5%B4%ED%83%84%EC%9D%B4/%EC%95%89%EC%95%84%EC%9E%88%EB%8A%94%EB%A5%B4%ED%83%84.png');
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            bottom: 63px;
+        }
+        .purple {
+            width: 100%;
+            height: 95px;
+            background-color: #9894E4;
+            position : absolute;
+            bottom : 0;
+            
         }
     </style>
 </head>
 <body>
     <div class="wrap">
-        <div class="Profile"></div>
-        <h1 class="main">최기헌</h1>
-        <p class="sub">SAP Architecture</p>
-        <a target="_blank" href="https://choishiam.notion.site/SAP-Architecture-b2abff7bbe9b42f4880657c8a7ff8bd2/">노션 페이지</a>
-        <a target="_blank" href="https://www.linkedin.com/in/%EA%B8%B0%ED%97%8C-%EC%B5%9C-7b04ab1b9/">링크드인</a>
+        <div class="profile"></div>
+        <h1 class="main">최 샴</h1>
+        <p class="sub">&#128304; 응용 프로그래머 &#128304;</p>
+        <a class="bigbutton"target="_blank" href="https://choishiam.notion.site/SAP-Architecture-b2abff7bbe9b42f4880657c8a7ff8bd2/">노션 페이지</a>
+        <div class="buttons">
+            <a class="minibutton" target="_blank" href="https://www.instagram.com/officialchoishiam/">인스타그램</a>
+            <a class="minibutton"target="_blank" href="https://choishiam.tistory.com/">블로그</a>
+        </div>
+        <div class="purple"></div>
+        <div class="rtan"></div>
     </div>
 </body>
 </html>
